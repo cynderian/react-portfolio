@@ -49,6 +49,35 @@
     background-size: 100% 100%;
 }
 
-.aboutItemText {
+.aboutItem h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
 
+.aboutItem p {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .aboutItems {
+        margin-top: 29px;
+    }
+
+    .aboutItem {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
