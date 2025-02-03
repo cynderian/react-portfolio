@@ -19,7 +19,9 @@ export const Navbar = () => {
                     alt="menu-button" 
                     onClick={() => setMenuOpen(!menuOpen)}
                 />
-                <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}>
+                <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+                    onclick={() => setMenuOpen(false)}
+                >
                     <li>
                         <a href='#about'>About</a>
                     </li>
