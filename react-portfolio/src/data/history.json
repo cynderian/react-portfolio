@@ -4,7 +4,7 @@
         "organization": "Infosys",
         "startDate": "i forgor",
         "endDate": "1/2025",
-        "description": "placeholder description",
+        "description": ["placeholder description"],
         "imageSrc" : "placeholder.png"
     }
 ]
