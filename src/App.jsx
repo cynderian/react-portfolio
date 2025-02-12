@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import styles from "./App.module.css";
 // import { ProfilePic } from "./components/ProfilePic/ProfilePic";
 // import { About } from "./components/About/About";
@@ -6,10 +6,10 @@ import styles from "./App.module.css";
 // import { Projects } from "./components/Projects/Projects";
 // import { Contact } from "./components/Contact/Contact";
 
-import Navbar from './components/Navbar/Navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Contact from './pages/Contact';
+import Navbar from "./components/Navbar/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -17,8 +17,8 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' exact component={Home} />
-          <Route path='/contact' component={Contact} />
+          <Route path="/" exact component={Home} />
+          <Route path="/contact" component={Contact} />
         </Routes>
       </Router>
     </>

@@ -1,10 +1,10 @@
 [
-    {
-        "role": "Associate Software Engineer",
-        "organization": "Infosys",
-        "startDate": "i forgor",
-        "endDate": "1/2025",
-        "description": ["placeholder description"],
-        "imageSrc" : "placeholder.png"
-    }
+  {
+    "role": "Associate Software Engineer",
+    "organization": "Infosys",
+    "startDate": "i forgor",
+    "endDate": "1/2025",
+    "description": ["placeholder description"],
+    "imageSrc": "placeholder.png"
+  }
 ]
