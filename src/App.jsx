@@ -6,7 +6,7 @@ import styles from "./App.module.css";
 // import { Projects } from "./components/Projects/Projects";
 // import { Contact } from "./components/Contact/Contact";
 
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
