@@ -7,11 +7,13 @@ export const SidebarData = [
     {
         title: 'About',
         path: '/about',
-        cName: 'nav-text'
     },
     {
         title: 'Projects',
         path: '/projects',
-        cName: 'nav-text'
+    },
+    {
+        title: 'Experience',
+        path: '/experience'
     }
 ]
