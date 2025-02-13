@@ -13,13 +13,11 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <>
-      
       <Router>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
-          { /* test */}
         </Routes>
       </Router>
     </>
