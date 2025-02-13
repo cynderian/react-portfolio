@@ -40,11 +40,10 @@ function Navbar() {
               );
             })}
           </ul>
-          {/* <div
-            className={`overlay ${sidebar ? "visible" : ""}`}
-            onClick={setSidebar(!sidebar)}
-          /> */}
         </nav>
+        <div
+            className={!sidebar ? `${styles.overlay}` : `${styles.overlay} ${styles.visible}`}
+        />
       </IconContext.Provider>
     </>
   );
