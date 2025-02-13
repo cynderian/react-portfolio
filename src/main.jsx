@@ -6,11 +6,11 @@ import App from "./App.jsx";
 import "@fontsource/outfit";
 import "@fontsource/roboto";
 
+import { Analytics } from "@vercel/analytics/react"
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />
-    <div>
-      testing
-    </div>
+    <Analytics />
   </StrictMode>,
 );

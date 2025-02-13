@@ -10,12 +10,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 
-import { Analytics } from "@vercel/analytics/react"
-
 function App() {
   return (
     <>
-      <Analytics />
+      
       <Router>
         <Navbar />
         <Routes>
