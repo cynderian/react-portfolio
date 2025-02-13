@@ -9,11 +9,7 @@ export const SidebarData = [
     path: "/about",
   },
   {
-    title: "Projects",
-    path: "/projects",
-  },
-  {
-    title: "Experience",
-    path: "/experience",
+    title: "Contact",
+    path: "/contact",
   },
 ];
