@@ -4,7 +4,6 @@ import styles from "./App.module.css";
 // import { About } from "./components/About/About";
 // import { Experience } from "./components/Experience/Experience";
 // import { Projects } from "./components/Projects/Projects";
-// import { Contact } from "./components/Contact/Contact";
 
 import Navbar from "./components/navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -17,8 +16,8 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" exact component={Home} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/" index element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
     </>
