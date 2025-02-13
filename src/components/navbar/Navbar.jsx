@@ -43,6 +43,7 @@ function Navbar() {
         </nav>
         <div
             className={!sidebar ? `${styles.overlay}` : `${styles.overlay} ${styles.visible}`}
+            onClick={showSidebar}
         />
       </IconContext.Provider>
     </>
