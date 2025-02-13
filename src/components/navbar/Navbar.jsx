@@ -11,7 +11,7 @@ function Navbar() {
   const showSidebar = () => setSidebar(!sidebar);
 
   return (
-    <>
+    <header className={styles.header}>
       <IconContext.Provider value={{ color: "#fff" }}>
         <div className={styles.navbar}>
           <Link to="#" className={styles.menuBars} onClick={showSidebar}>
@@ -46,7 +46,7 @@ function Navbar() {
             onClick={showSidebar}
         />
       </IconContext.Provider>
-    </>
+    </header>
   );
 }
 
