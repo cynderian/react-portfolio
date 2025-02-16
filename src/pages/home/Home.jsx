@@ -1,12 +1,10 @@
 import React from "react";
 import styles from "./Home.module.css";
 
-function Home() {
+export default function Home() {
   return (
     <div className="home">
-      <h1 className={styles.title}>Home</h1>
+      <h1 className={styles.title}>Hi, my name is Vivian Tucholski.</h1>
     </div>
   );
 }
-
-export default Home;
