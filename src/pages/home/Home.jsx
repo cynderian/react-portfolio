@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Home.module.css";
+import { Link } from "react-router-dom";
 
 import TextMotion from "../../components/TextMotion"
 
@@ -9,10 +10,12 @@ export default function Home() {
       { /* implement smooth scroll? (lenis?) */ }
       <div className={styles.intro}>
         <TextMotion text="Vivian Tucholski"/>
-        <p className={styles.about}>this is going to be a little section about myself and my ambitions and stuff I suppose</p>
+        <TextMotion delay={1} text="this is going to be a little section about myself and my ambitions and stuff I suppose"/>
         <div className={styles.links}>
-          <a>Projects</a>
-          <a>Resume</a>
+        <Link to="/Projects">
+          <TextMotion delay={2} href="" text="Projects"/>
+        </Link>
+          <TextMotion delay={2} href="" text={<a href='../../files/Vivian_Tucholski_Resume.pdf' download>Resume</a>} />
         </div>
       </div>
       
