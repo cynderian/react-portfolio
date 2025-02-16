@@ -18,13 +18,11 @@
 
 .linkBox {
     width: 50%;
-    position: relative;
     font-size: 20px;
     font-weight: 200;
 }
 
 .linkBox p {
-    position: relative;
     padding-top: 10px;
 }
 
@@ -38,7 +36,6 @@
 }
 
 .contactBox p {
-    position: relative;
     padding-top: 10px;
 }
 
