@@ -2,8 +2,8 @@
 
 .footer {
     position: static;
-    border-top: solid 2px black;
-    border-bottom: solid 2px black;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
     margin-bottom: 100px;
 }
 
@@ -19,16 +19,30 @@
 .linkBox {
     width: 50%;
     position: relative;
+    font-size: 20px;
+    font-weight: 200;
 }
 
-.linkBox h2 {
+.linkBox p {
+    position: relative;
+    padding-top: 10px;
+}
+
+.linkBox a {
     text-decoration: none;
 }
 
 .contactBox {
     flex-grow: 1;
+    font-size: 20px;
+}
+
+.contactBox p {
+    position: relative;
+    padding-top: 10px;
 }
 
 .title {
     font-style: bold;
+    font-size: 25px;
 }
