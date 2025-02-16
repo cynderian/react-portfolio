@@ -1,17 +1,21 @@
 import React from "react";
 import styles from "./Home.module.css";
 
+import TextMotion from "../../components/TextMotion"
+
 export default function Home() {
   return (
     <div className="home">
+      { /* implement smooth scroll? (lenis?) */ }
       <div className={styles.intro}>
-        <h1 className={styles.title}>Hi, my name is Vivian Tucholski.</h1>
+        <TextMotion text="Vivian Tucholski"/>
         <p className={styles.about}>this is going to be a little section about myself and my ambitions and stuff I suppose</p>
+        <div className={styles.links}>
+          <a>Projects</a>
+          <a>Resume</a>
+        </div>
       </div>
-      <div className={styles.links}>
-        <a>Projects</a>
-        <a>Resume</a>
-      </div>
+      
       <div className={styles.specialties}>
         <div className={styles.frontendBox}>
           <h1>Frontend</h1>
@@ -34,4 +38,4 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};

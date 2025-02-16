@@ -1,19 +1,11 @@
 @import "../../vars.css";
 
 .intro {
-    opacity: 0;
-
-    animation: ;
-    opacity: 1;
+    overflow: hidden;
+    padding-left: 200px;
 }
 
 .title {
-    font-size: 50;
-    font-weight: 500;
-
-    opacity: 1;
-
-    padding-left: 200px;
 }
 
 .about {
