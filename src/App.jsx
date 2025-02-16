@@ -5,18 +5,19 @@ import styles from "./App.module.css";
 // import { Experience } from "./components/Experience/Experience";
 // import { Projects } from "./components/Projects/Projects";
 
-import Navbar from "./components/navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Contact from "./pages/Contact";
+import Navbar from "./components/navbar/Navbar";
+import Home from "./pages/home/Home";
+import Contact from "./pages/contact/Contact";
 
 function App() {
   return (
     <>
       <Router>
         <Navbar />
+        <Home />
         <Routes>
-          <Route path="/" element={<Home />} />
+          {/* <Route path="/" element={<Home />} /> */}
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
