@@ -1,2 +1,14 @@
 @import "../../vars.css";
 
+.footer {
+    height: 300px;
+    background-color: var(--color-bg);
+}
+
+.title {
+
+}
+
+.link {
+    text-decoration: none;
+}
