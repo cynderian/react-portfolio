@@ -15,7 +15,7 @@ export default function Home() {
         <Link to="/Projects">
           <TextMotion delay={2} href="" text="Projects"/>
         </Link>
-          <TextMotion delay={2} href="" text={<a href='../../files/Vivian_Tucholski_Resume.pdf' download>Resume</a>} />
+          <TextMotion delay={2} href="" text={<a href='/Vivian_Tucholski_Resume.pdf' download>Resume</a>} />
         </div>
       </div>
       
