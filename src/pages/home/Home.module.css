@@ -1,8 +1,11 @@
 @import "../../vars.css";
 
+.home {
+    color: var(--color-text)
+}
 .intro {
     overflow: hidden;
-    padding-left: 200px;
+    height: 515px;
 }
 
 .title {
@@ -13,14 +16,26 @@
 }
 
 .links {
+    width: 400px;
+    display: flex;
+    margin-left: 100px;
+}
+
+.projects {
     width: 200px;
     text-decoration: none;
 }
 
+.resume {
+    text-decoration: none;
+    color: #0000FF;
+}
+
 .specialties {
-    display: flex;
-    text-align: center;
+    background-color: grey;
+    height: 515px;
     display: grid;
+    text-align: center;
     grid-auto-columns: minmax(0, 1fr);
     grid-auto-flow: column;
 }

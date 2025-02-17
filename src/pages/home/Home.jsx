@@ -6,17 +6,17 @@ import TextMotion from "../../components/TextMotion"
 
 export default function Home() {
   return (
-    <div className="home">
+    <div className={styles.home}>
       { /* implement smooth scroll? (lenis?) */ }
       <div className={styles.intro}>
         <TextMotion text="Vivian Tucholski"/>
         <TextMotion delay={1} text="this is going to be a little section about myself and my ambitions and stuff I suppose"/>
-        <div className={styles.links}>
-        <Link to="/Projects">
-          <TextMotion delay={2} href="" text="Projects"/>
-        </Link>
-          <TextMotion delay={2} href="" text={<a href='/Vivian_Tucholski_Resume.pdf' download>Resume</a>} />
-        </div>
+        <span className={styles.links}>
+          <Link to="/Projects">
+            <TextMotion delay={2} href="" text="Projects" className={styles.projects}/>
+          </Link>
+          <TextMotion delay={2} href="" text={<a className={styles.resume} href='/Vivian_Tucholski_Resume.pdf' download>Resume</a>} />
+        </span>
       </div>
       
       <div className={styles.specialties}>

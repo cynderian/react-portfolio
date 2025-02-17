@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./App.module.css";
 // import { ProfilePic } from "./components/ProfilePic/ProfilePic";
 // import { About } from "./components/About/About";
 // import { Experience } from "./components/Experience/Experience";
