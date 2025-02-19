@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./Footer.module.css";
 
 export default function Footer() {
@@ -15,7 +15,7 @@ export default function Footer() {
                   <a href="https://github.com/cynderian">GitHub</a>
                 </p>
                 <p>
-                  <a>Resume</a>
+                  <a className={styles.resume} href='/Vivian_Tucholski_Resume.pdf' download>Resume</a>
                 </p>
               </div>
               <div className={styles.contactBox}>
