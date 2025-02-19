@@ -1,2 +1,3 @@
+add flexbox support for homepage
 implement contacts page
 add mobile support

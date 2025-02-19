@@ -25,10 +25,12 @@ export default function Home() {
           <TextMotion delay={1} text="this is going to be a little section about myself and my ambitions and stuff I suppose"/>
         </div>
         <span className={styles.links}>
-          <Link to="/Projects">
-            <TextMotion delay={2} href="" text="Projects" className={styles.projects}/>
+          <Link to="/Projects" className={styles.link}>
+            <TextMotion delay={2} href="" text="Projects" />
           </Link>
-          <TextMotion delay={2} href="" text={<a className={styles.resume} href='/Vivian_Tucholski_Resume.pdf' download>Resume</a>} />
+          <div className={styles.link}>
+            <TextMotion delay={2} href="" text={<a className={styles.resume} href='/Vivian_Tucholski_Resume.pdf' download>Resume</a>} />
+          </div>
         </span>
       </div>
       
