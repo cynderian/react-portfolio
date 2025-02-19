@@ -1,0 +1,2 @@
+implement contacts page
+add mobile support
