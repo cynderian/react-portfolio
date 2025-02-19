@@ -3,16 +3,31 @@
 .home {
     color: var(--color-text)
 }
+
+.profileImg {
+    display: block;
+    border-radius: 8px;
+    margin: 50px 300px 50px auto;
+    object-position: 70% 25%;
+    object-fit: cover;
+}
+
 .intro {
     overflow: hidden;
     height: 515px;
+    margin: 0 300px 0 300px;
 }
 
-.title {
+.name {
+    height: 1fr;
+    width: fit-content;
+    font-size: 115px;
+    font-weight: 600;
+    letter-spacing: 0em;
 }
 
 .about {
-
+    display: flex;
 }
 
 .links {

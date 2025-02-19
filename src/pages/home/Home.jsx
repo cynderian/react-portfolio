@@ -7,10 +7,23 @@ import TextMotion from "../../components/TextMotion"
 export default function Home() {
   return (
     <div className={styles.home}>
+      <div>
+        { /*src={getImageUrl("vvttmp.jpg")}*/ }
+        <img
+          src="black_image.png"
+          alt="Profile Picture"
+          sizes="max(min(max(100vw - 128px, 1px), 1200px) * 0.6399, 1px)"
+          className={styles.profileImg}
+        />
+      </div>
       { /* implement smooth scroll? (lenis?) */ }
       <div className={styles.intro}>
-        <TextMotion text="Vivian Tucholski"/>
-        <TextMotion delay={1} text="this is going to be a little section about myself and my ambitions and stuff I suppose"/>
+        <div className={styles.name}>
+          <TextMotion text="Vivian Tucholski"/>
+        </div>
+        <div className={styles.about}>
+          <TextMotion delay={1} text="this is going to be a little section about myself and my ambitions and stuff I suppose"/>
+        </div>
         <span className={styles.links}>
           <Link to="/Projects">
             <TextMotion delay={2} href="" text="Projects" className={styles.projects}/>
