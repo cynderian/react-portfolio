@@ -4,13 +4,12 @@
     position: static;
     border-top: solid 1px black;
     border-bottom: solid 1px black;
-    margin-bottom: 100px;
 }
 
 .content {
     padding-top: 20px;
     text-align: center;
-    height: 200px;
+    height: 180px;
     background-color: var(--color-bg);
     margin-top: auto;
     display: flex;
